@@ -1390,13 +1390,13 @@
                         <div class="image-container">
                             <div class="image-slider" id="slider1">
                                 <div class="image-slide">
-                                    <img src="./images/soil_moisture_sensor.jpg" alt="Soil Moisture Sensor" class="clickable-image">
+                                    <img src="./images/soil_moisture_sensor.jpg" alt="Soil Moisture Sensor" loading="lazy" class="clickable-image">
                                 </div>
                                 <div class="image-slide">
-                                    <img src="./images/soil_front.jpeg" alt="Soil Moisture Sensor PCB (Front)" class="clickable-image">
+                                    <img src="./images/soil_front.jpg" alt="Soil Moisture Sensor PCB (Front)" loading="lazy" class="clickable-image">
                                 </div>
                                 <div class="image-slide">
-                                    <img src="./images/soil_back.jpeg" alt="Soil Moisture Sensor PCB (Back)" class="clickable-image">
+                                    <img src="./images/soil_back.jpg" alt="Soil Moisture Sensor PCB (Back)" loading="lazy" class="clickable-image">
                                 </div>
                             </div>
                             <button class="nav-buttons prev" onclick="changeSlide('slider1', -1)">‹</button>
@@ -1427,13 +1427,13 @@
                         <div class="image-container">
                             <div class="image-slider" id="slider2">
                                 <div class="image-slide">
-                                    <img src="./images/noaa_gnuradio.png" alt="GNU Radio Flowchart" class="clickable-image">
+                                    <img src="./images/noaa_gnuradio.png" alt="GNU Radio Flowchart" loading="lazy" class="clickable-image">
                                 </div>
                                 <div class="image-slide">
-                                    <img src="./images/noaa_setup.jpg" alt="NOAA Setup" class="clickable-image">
+                                    <img src="./images/noaa_setup.jpg" alt="NOAA Setup" loading="lazy" class="clickable-image">
                                 </div>
                                 <div class="image-slide">
-                                    <img src="./images/RTL_SDR.jpg" alt="RTL SDR" class="clickable-image">
+                                    <img src="./images/RTL_SDR.jpg" alt="RTL SDR" loading="lazy" class="clickable-image">
                                 </div>
                             </div>
                             <button class="nav-buttons prev" onclick="changeSlide('slider2', -1)">‹</button>
@@ -1460,7 +1460,7 @@
                         <div class="image-container">
                             <div class="image-slider" id="slider3">
                                 <div class="image-slide">
-                                    <img src="./images/hydrogen_line_hardware.jpg" alt="Hydrogen Line Hardware" class="clickable-image">
+                                    <img src="./images/hydrogen_line_hardware.jpg" alt="Hydrogen Line Hardware" loading="lazy" class="clickable-image">
                                 </div>
                             </div>
                             <button class="nav-buttons prev" onclick="changeSlide('slider3', -1)">‹</button>
@@ -1635,7 +1635,7 @@
                 if (this.autoPlay) {
                     this.intervalId = setInterval(() => {
                         this.nextSlide();
-                    }, 3000);
+                    }, 6000);
                 }
             }
 
